@@ -1,783 +1,575 @@
 <!DOCTYPE html>
 <html lang="pr-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="../static/style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-    <title>Dev.Gabriel</title>
-  </head>
-  <body>
-    <i class="bi bi-list menu-mobile"></i>
 
-    <aside id="header">
-      <section class="profile">
-        <img src="../static/img/profile.jpg" alt="Foto do Gabriel" />
-        <h1>Gabriel Gasperi</h1>
-        <div class="social-links mt-4 text-center">
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/gabriel-gasperi-gawadryn/"
-          >
-            <i class="bi bi-linkedin"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="../static/style.css" />
+  <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <title>Gasperi Dev</title>
+</head>
+
+<body>
+  <i class="bi bi-list menu-mobile"></i>
+
+  <aside id="header">
+    <section class="profile">
+      <img src="../static/img/profile.jpg" alt="Foto do Gabriel" />
+      <h1>Gabriel Gasperi</h1>
+      <div class="social-links mt-4 text-center">
+        <a target="_blank" href="https://www.linkedin.com/in/gabriel-gasperi-gawadryn/">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a target="_blank" href="https://github.com/gabrielgasperig">
+          <i class="bi bi-github"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/gabrielgasperig/">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+    </section>
+    <nav class="nav-menu">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <i class="bi bi-house"></i> Inicio
           </a>
-          <a target="_blank" href="https://github.com/gabrielgasperig">
-            <i class="bi bi-github"></i>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">
+            <i class="bi bi-person"></i> Sobre
           </a>
-          <a target="_blank" href="https://www.instagram.com/gabrielgasperig/">
-            <i class="bi bi-instagram"></i>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#habilidades">
+            <i class="bi bi-list-check"></i> Habilidades
           </a>
-        </div>
-      </section>
-      <nav class="nav-menu">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
-              <i class="bi bi-house"></i> Inicio
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#sobre">
-              <i class="bi bi-person"></i> Sobre
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#habilidades">
-              <i class="bi bi-list-check"></i> Habilidades
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#curriculo">
-              <i class="bi bi-file-earmark"></i> Currículo
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">
-              <i class="bi bi-collection"></i> Portfólio
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contato">
-              <i class="bi bi-envelope"></i> Contato
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </aside>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#curriculo">
+            <i class="bi bi-file-earmark"></i> Currículo
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">
+            <i class="bi bi-collection"></i> Portfólio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">
+            <i class="bi bi-envelope"></i> Contato
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
 
-    <main id="main">
-      <section class="row m-0 p-0" id="inicio">
-        <div
-          class="col-md-5 d-flex justify-content-center align-items-center flex-column"
-        >
-          <h2 class="text-shadow">Gabriel Gasperi</h2>
-          <span id="subtitle" class="text-shadow"
-            >Desenvolvedor Web | Python | Django | JavaScript</span
-          >
-        </div>
+  <main id="main">
+    <section class="row m-0 p-0" id="inicio">
+      <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+        <h2 class="text-shadow">Gabriel Gasperi</h2>
+        <span id="subtitle" class="text-shadow">Desenvolvedor Web | Python | Django | JavaScript</span>
+      </div>
 
-        <div class="col-md-7 d-flex justify-content-end align-items-end">
-          <div id="arraste" class="d-flex align-items-center">
-            <i
-              class="bi bi-arrow-down text-white pe-2 fs-2"
-              aria-hidden="true"
-            ></i>
-            <a href="#sobre">Arraste para mais</a>
-          </div>
+      <div class="col-md-7 d-flex justify-content-end align-items-end">
+        <div id="arraste" class="d-flex align-items-center">
+          <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+          <a href="#sobre">Arraste para mais</a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="container mt-5" id="sobre">
-        <div class="row w-100">
-          <div class="col-md-12" data-anime="down">
-            <h2 class="pt-3">Sobre</h2>
-            <p>
-              Sou Gabriel Gasperi, desenvolvedor web, dedicado a criar soluções digitais que geram valor. Atualmente, atuo no setor de help desk no Porto de Itajaí (SC), onde além do suporte técnico, busco aplicar meus conhecimentos em desenvolvimento para otimizar rotinas e propor melhorias nos sistemas internos. Tenho experiência sólida com Python e Django no backend, além de domínio em HTML, CSS, JavaScript, PHP, Bootstrap e bancos de dados como MySQL e PostgreSQL. Também utilizo o Figma para prototipação de interfaces, aliando design e funcionalidade na construção de aplicações web eficientes.
-            </p>
-          </div>
+    <section class="container mt-5" id="sobre">
+      <div class="row w-100">
+        <div class="col-md-12" data-anime="down">
+          <h2 class="pt-3">Sobre</h2>
+          <p>
+            Sou Gabriel Gasperi, desenvolvedor web, dedicado a criar soluções digitais que geram valor. Atualmente, atuo
+            no setor de help desk no Porto de Itajaí (SC), onde além do suporte técnico, busco aplicar meus
+            conhecimentos em desenvolvimento para otimizar rotinas e propor melhorias nos sistemas internos. Tenho
+            experiência sólida com Python e Django no backend, além de domínio em HTML, CSS, JavaScript, PHP, Bootstrap
+            e bancos de dados como MySQL e PostgreSQL. Também utilizo o Figma para prototipação de interfaces, aliando
+            design e funcionalidade na construção de aplicações web eficientes.
+          </p>
         </div>
+      </div>
 
-        <div class="row mt-4">
-          <div class="col-md-4">
-            <img
-              class="img-fluid shadow w-100 h-100 object-fit-cover"
-              src="../static/img/profile.jpg"
-              alt="Foto do Gabriel"
-              data-anime="left"
-            />
-          </div>
-          <div class="col-md-8" data-anime="right">
-            <h3>Desenvolvedor Web</h3>
-            <p>
-              Tenho experiência no desenvolvimento de aplicações web com foco em backend, especialmente com Python, Flask e Django. Além disso, atuo no frontend utilizando HTML, CSS, JavaScript e Bootstrap. Compreendo bem o ciclo completo de um projeto: desde a prototipação até o deploy.
-            </p>
-            <div class="row mt-3 mb-3">
-              <div class="col-md-6">
-                <ul class="list-group list-group-flush fs-5">
-                  </li>
-                  <li class="list-group-item">
-                    Idade: <span class="fw-lighter">24 anos</span>
-                  </li>
-                  <li class="list-group-item">
-                    Cidade: <span class="fw-lighter">Itajaí</span>
-                  </li>
-                  <li class="list-group-item">
-                    Estado: <span class="fw-lighter">Santa Catarina</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <ul class="list-group list-group-flush fs-5">
-                  <li class="list-group-item">
-                    Trabalho:
-                    <a
-                      href="https://www.portoitajai.com.br/"
-                      target="_blank"
-                      class="fw-lighter text-decoration-none link-dark"
-                    >
-                      Porto de Itajaí</a
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    Experiência: <span class="fw-lighter">3 anos</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <p>Trabalho com bancos de dados como MySQL e PostgreSQL e utilizo o Figma para organizar protótipos de interface. Procuro sempre desenvolver soluções práticas e bem estruturadas, alinhadas às necessidades do projeto.</p>
-          </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img class="img-fluid shadow w-100 h-100 object-fit-cover" src="../static/img/profile.jpg"
+            alt="Foto do Gabriel" data-anime="left" />
         </div>
-      </section>
-
-      <section class="mt-5 section-bg" id="habilidades">
-        <div class="container pb-5">
-          <h2 class="pt-5">Habilidades</h2>
-          <p>Em todo tempo como profissional de tecnologia eu adquiri algumas habilidades técnicas e não técnicas,
-                    a maioria delas estão aqui, de acordo com a porcentagem de conhecimento que eu acredito ter em cada
-                    uma delas.</p>
-          <div class="row">
+        <div class="col-md-8" data-anime="right">
+          <h3>Desenvolvedor Web</h3>
+          <p>
+            Tenho experiência no desenvolvimento de aplicações web com foco em backend, especialmente com Python, Flask
+            e Django. Além disso, atuo no frontend utilizando HTML, CSS, JavaScript e Bootstrap. Compreendo bem o ciclo
+            completo de um projeto: desde a prototipação até o deploy.
+          </p>
+          <div class="row mt-3 mb-3">
             <div class="col-md-6">
-              <p class="mt-3 mb-0">Python</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="90"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 90%" data-anime="left">
-                  90%
-                </div>
-              </div>
-              <p class="mt-3 mb-0">Django</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 80%" data-anime="left">
-                  80%
-                </div>
-              </div>
-              <p class="mt-3 mb-0">Flask</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 80%" data-anime="left">
-                  80%
-                </div>
-              </div>
-              <p class="mt-3 mb-0">JavaScript</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="70"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 70%" data-anime="left">
-                  70%
-                </div>
-              </div>
-              <p class="mt-3 mb-0">HTML/CSS</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="85"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 85%" data-anime="left">
-                  85%
-                </div>
-              </div>
+              <ul class="list-group list-group-flush fs-5">
+                </li>
+                <li class="list-group-item">
+                  Idade: <span class="fw-lighter">24 anos</span>
+                </li>
+                <li class="list-group-item">
+                  Cidade: <span class="fw-lighter">Itajaí</span>
+                </li>
+                <li class="list-group-item">
+                  Estado: <span class="fw-lighter">Santa Catarina</span>
+                </li>
+              </ul>
             </div>
             <div class="col-md-6">
-              <p class="mt-3 mb-0">Bootstrap</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 75%" data-anime="left">
-                  75%
-                </div>
+              <ul class="list-group list-group-flush fs-5">
+                <li class="list-group-item">
+                  Trabalho:
+                  <a href="https://www.portoitajai.com.br/" target="_blank"
+                    class="fw-lighter text-decoration-none link-dark">
+                    Porto de Itajaí</a>
+                </li>
+                <li class="list-group-item">
+                  Experiência: <span class="fw-lighter">3 anos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p>Trabalho com bancos de dados como MySQL e PostgreSQL e utilizo o Figma para organizar protótipos de
+            interface. Procuro sempre desenvolver soluções práticas e bem estruturadas, alinhadas às necessidades do
+            projeto.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 section-bg" id="habilidades">
+      <div class="container pb-5">
+        <h2 class="pt-5">Habilidades</h2>
+        <p>Em todo tempo como profissional de tecnologia eu adquiri algumas habilidades técnicas e não técnicas,
+          a maioria delas estão aqui, de acordo com a porcentagem de conhecimento que eu acredito ter em cada
+          uma delas.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mt-3 mb-0">Python</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 90%" data-anime="left">
+                90%
               </div>
-              <p class="mt-3 mb-0">PHP</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="60"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 60%" data-anime="left">
-                  60%
-                </div>
+            </div>
+            <p class="mt-3 mb-0">Django</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%" data-anime="left">
+                80%
               </div>
-              <p class="mt-3 mb-0">MySQL/PostgreSQL</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 80%" data-anime="left">
-                  80%
-                </div>
+            </div>
+            <p class="mt-3 mb-0">Flask</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%" data-anime="left">
+                80%
               </div>
-              <p class="mt-3 mb-0">Git & GitHub</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="70"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 70%" data-anime="left">
-                  70%
-                </div>
+            </div>
+            <p class="mt-3 mb-0">JavaScript</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 70%" data-anime="left">
+                70%
               </div>
-              <p class="mt-3 mb-0">Figma</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="60"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 60%" data-anime="left">
-                  60%
-                </div>
+            </div>
+            <p class="mt-3 mb-0">HTML/CSS</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 85%" data-anime="left">
+                85%
               </div>
             </div>
           </div>
-
-          <br />
-          <hr class="w-50 me-auto ms-auto" />
-
-          <div class="row">
-            <div class="col-md-6">
-              <p class="mt-3 mb-0">Comunicação</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="90"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 90%" data-anime="left">
-                  90%
-                </div>
-              </div>
-              <p class="mt-3 mb-0">Trabalho em equipe</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="95"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 95%" data-anime="left">
-                  95%
-                </div>
-              </div>
-              <p class="mt-3 mb-0">Resolução de problemas</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="99"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 99%" data-anime="left">
-                  99%
-                </div>
+          <div class="col-md-6">
+            <p class="mt-3 mb-0">Bootstrap</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%" data-anime="left">
+                75%
               </div>
             </div>
-            <div class="col-md-6">
-              <p class="mt-3 mb-0">Organização</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="97"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 97%" data-anime="left">
-                  97%
-                </div>
+            <p class="mt-3 mb-0">PHP</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="60"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 60%" data-anime="left">
+                60%
               </div>
-              <p class="mt-3 mb-0">Adaptabilidade</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="96"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 96%" data-anime="left">
-                  96%
-                </div>
+            </div>
+            <p class="mt-3 mb-0">MySQL/PostgreSQL</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%" data-anime="left">
+                80%
               </div>
-              <p class="mt-3 mb-0">Aprendizado contínuo</p>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Example with label"
-                aria-valuenow="92"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar" style="width: 92%" data-anime="left">
-                  92%
-                </div>
+            </div>
+            <p class="mt-3 mb-0">Git & GitHub</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 70%" data-anime="left">
+                70%
+              </div>
+            </div>
+            <p class="mt-3 mb-0">Figma</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="60"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 60%" data-anime="left">
+                60%
               </div>
             </div>
           </div>
         </div>
-      </section>
 
-      <section class="mt-5 cv" id="curriculo">
-        <div class="container pb-5">
-          <h2 class="pt-3 pb-4">Currículo</h2>
+        <br />
+        <hr class="w-50 me-auto ms-auto" />
 
-          <div class="row">
-            <div class="col-md-6">
-              <h3 class="cv-title">Educação</h3>
-
-              <div class="cv-item" data-anime="up">
-                <h4>C.S.T. em Sistemas para Internet</h4>
-                <h5>2023 - Atual</h5>
-                <p><em>Univali</em></p>
-                <p>
-                  Tecnológo focada em desenvolvimento de sistemas, lógica de programação, banco de dados, engenharia de software e tecnologias web.
-                </p>
-              </div>
-
-              <div class="cv-item" data-anime="up">
-                <h4>Oracle Next Education</h4>
-                <h5>2025 - Atual</h5>
-                <p><em>Alura</em></p>
-                <p>
-                  Formação em Data Science com foco nos fundamentos da área, abordando modelagem de dados, consultas SQL, manipulação e análise de dados com Python.
-                </p>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mt-3 mb-0">Comunicação</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 90%" data-anime="left">
+                90%
               </div>
             </div>
-            <div class="col-md-6">
-              <h3 class="cv-title">Profissional</h3>
-
-              <div class="cv-item" data-anime="up">
-                <h4>Estagiário de TI</h4>
-                <h5>2023 - 2025</h5>
-                <p><em>Prefeitura Municipal de Itajaí</em></p>
-                <p>
-                  Atuação no suporte técnico (Help Desk) para resolver demandas dos usuários. Responsável pelo gerenciamento de cadastros em sistemas internos. Desenvolvi protótipos e interfaces de usuário interativas utilizando Figma, além de criar e manter páginas de documentação interna com Wiki.js.
-                </p>
+            <p class="mt-3 mb-0">Trabalho em equipe</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 95%" data-anime="left">
+                95%
               </div>
-
-              <div class="cv-item" data-anime="up">
-                <h4>Estagiário de TI</h4>
-                <h5>2025 - Atual</h5>
-                <p><em>Superintendência do Porto de Itajaí</em></p>
-                <p>
-                  Atuo prestando suporte técnico a usuários via telefone, e-mail e presencialmente, solucionando problemas com sistemas operacionais, softwares e pacotes de produtividade. Responsável pela instalação e configuração de softwares e periféricos, além do registro e acompanhamento de chamados técnicos. Auxilio na manutenção preventiva e corretiva de equipamentos, organização de cabeamento de rede e telefonia, e manutenção de impressoras e outros dispositivos. Mantenho a documentação técnica atualizada e encaminho demandas complexas para equipes especializadas.
-                </p>
+            </div>
+            <p class="mt-3 mb-0">Resolução de problemas</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="99"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 99%" data-anime="left">
+                99%
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="mt-3 mb-0">Organização</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="97"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 97%" data-anime="left">
+                97%
+              </div>
+            </div>
+            <p class="mt-3 mb-0">Adaptabilidade</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="96"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 96%" data-anime="left">
+                96%
+              </div>
+            </div>
+            <p class="mt-3 mb-0">Aprendizado contínuo</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="92"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 92%" data-anime="left">
+                92%
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section-bg mt-5" id="portfolio">
-        <div class="container pb-5 pt-5" data-anime="left">
-          <h2 class="pb-4">Portfólio</h2>
+    <section class="mt-5 cv" id="curriculo">
+      <div class="container pb-5">
+        <h2 class="pt-3 pb-4">Currículo</h2>
 
-          <div
-            id="carouselPortfolio"
-            class="carousel carousel-dark slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselPortfolio"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselPortfolio"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="cv-title">Educação</h3>
+
+            <div class="cv-item" data-anime="up">
+              <h4>C.S.T. em Sistemas para Internet</h4>
+              <h5>2023 - Atual</h5>
+              <p><em>Univali</em></p>
+              <p>
+                Tecnológo focada em desenvolvimento de sistemas, lógica de programação, banco de dados, engenharia de
+                software e tecnologias web.
+              </p>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                  <div class="col">
-                    <div class="card">
-                      <img
-                        src="../static/img/"
-                        class="card-img-top"
-                        alt="Print"
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Projeto 1</h5>
-                        <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Recusandae, quia autem provident quidem fuga,
-                          quasi ad voluptatibus, nisi consequuntur deserunt amet
-                          adipisci hic accusamus temporibus. Obcaecati sunt
-                          dolor nihil facere?
-                        </p>
-                        <div class="d-flex justify-content-center">
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-primary"
-                            ><i class="bi bi-link-45deg"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img
-                        src="../static/img/"
-                        class="card-img-top img-fluid w-100"
-                        alt="Print"
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Projeto 2</h5>
-                        <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cum iure debitis recusandae nostrum doloribus
-                          eveniet molestias iusto nobis dolores dicta.
-                          Perferendis quod omnis harum ad blanditiis quasi
-                          ratione, eum quisquam!
-                        </p>
-                        <div class="d-flex justify-content-center">
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-dark me-3"
-                            ><i class="bi bi-github"></i
-                          ></a>
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-primary"
-                            ><i class="bi bi-link-45deg"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img
-                        src="../static/img/"
-                        class="card-img-top img-fluid w-100"
-                        alt="Print"
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Projeto 3</h5>
-                        <p class="card-text">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Enim possimus corporis odio repellat, veniam
-                          ipsam dolorum quo natus dolorem, molestiae tenetur
-                          pariatur ea! Excepturi dignissimos voluptatibus
-                          obcaecati sint nisi ab!
-                        </p>
-                        <div class="d-flex justify-content-center">
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-dark me-3"
-                            ><i class="bi bi-github"></i
-                          ></a>
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-primary"
-                            ><i class="bi bi-link-45deg"></i
-                          ></a>
-                        </div>
+
+            <div class="cv-item" data-anime="up">
+              <h4>Oracle Next Education</h4>
+              <h5>2025 - Atual</h5>
+              <p><em>Alura</em></p>
+              <p>
+                Formação em Data Science com foco nos fundamentos da área, abordando modelagem de dados, consultas SQL,
+                manipulação e análise de dados com Python.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3 class="cv-title">Profissional</h3>
+
+            <div class="cv-item" data-anime="up">
+              <h4>Estagiário de TI</h4>
+              <h5>2023 - 2025</h5>
+              <p><em>Prefeitura Municipal de Itajaí</em></p>
+              <p>
+                Atuação no suporte técnico (Help Desk) para resolver demandas dos usuários. Responsável pelo
+                gerenciamento de cadastros em sistemas internos. Desenvolvi protótipos e interfaces de usuário
+                interativas utilizando Figma, além de criar e manter páginas de documentação interna com Wiki.js.
+              </p>
+            </div>
+
+            <div class="cv-item" data-anime="up">
+              <h4>Estagiário de TI</h4>
+              <h5>2025 - Atual</h5>
+              <p><em>Superintendência do Porto de Itajaí</em></p>
+              <p>
+                Atuo prestando suporte técnico a usuários via telefone, e-mail e presencialmente, solucionando problemas
+                com sistemas operacionais, softwares e pacotes de produtividade. Responsável pela instalação e
+                configuração de softwares e periféricos, além do registro e acompanhamento de chamados técnicos. Auxilio
+                na manutenção preventiva e corretiva de equipamentos, organização de cabeamento de rede e telefonia, e
+                manutenção de impressoras e outros dispositivos. Mantenho a documentação técnica atualizada e encaminho
+                demandas complexas para equipes especializadas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-bg mt-5" id="portfolio">
+      <div class="container pb-5 pt-5" data-anime="left">
+        <h2 class="pb-4">Portfólio</h2>
+
+        <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="../static/img/" class="card-img-top" alt="Print" />
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto 1</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Recusandae, quia autem provident quidem fuga,
+                        quasi ad voluptatibus, nisi consequuntur deserunt amet
+                        adipisci hic accusamus temporibus. Obcaecati sunt
+                        dolor nihil facere?
+                      </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="carousel-item" data-bs-interval="2000">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                  <div class="col">
-                    <div class="card h-100">
-                      <img
-                        src="../static/img/"
-                        class="card-img-top img-fluid w-100"
-                        alt="Print"
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Projeto 4</h5>
-                        <p class="card-text">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Repudiandae, illum corporis aut quae earum
-                          tempore dolores voluptatum sit quia labore,
-                          praesentium maiores deleniti non ipsum distinctio eos
-                          quo harum dolorum.
-                        </p>
-                        <div class="d-flex justify-content-center">
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-dark me-3"
-                            ><i class="bi bi-github"></i
-                          ></a>
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-primary"
-                            ><i class="bi bi-link-45deg"></i
-                          ></a>
-                        </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../static/img/" class="card-img-top img-fluid w-100" alt="Print" />
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto 2</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Cum iure debitis recusandae nostrum doloribus
+                        eveniet molestias iusto nobis dolores dicta.
+                        Perferendis quod omnis harum ad blanditiis quasi
+                        ratione, eum quisquam!
+                      </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                        <a href="" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <img
-                        src="../static/img/"
-                        class="card-img-top img-fluid w-100"
-                        alt="Print"
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Projeto 5</h5>
-                        <p class="card-text">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Rem facere quam quasi minima sit asperiores hic
-                          officiis placeat at quae, facilis soluta quaerat nam
-                          est et quos ratione sequi assumenda?
-                        </p>
-                        <div class="d-flex justify-content-center">
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-dark me-3"
-                            ><i class="bi bi-github"></i
-                          ></a>
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-primary"
-                            ><i class="bi bi-link-45deg"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <img
-                        src="../static/img/"
-                        class="card-img-top img-fluid w-100"
-                        alt="Print"
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Projeto 6</h5>
-                        <p class="card-text">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Reiciendis illo optio pariatur quos! Quasi,
-                          eaque quam nostrum omnis velit in illo quibusdam
-                          error, aliquid reprehenderit natus ea, quidem
-                          perferendis assumenda.
-                        </p>
-                        <div class="d-flex justify-content-center">
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-dark me-3"
-                            ><i class="bi bi-github"></i
-                          ></a>
-                          <a
-                            href=""
-                            target="_blank"
-                            class="btn btn-outline-primary"
-                            ><i class="bi bi-link-45deg"></i
-                          ></a>
-                        </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../static/img/" class="card-img-top img-fluid w-100" alt="Print" />
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto 3</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Enim possimus corporis odio repellat, veniam
+                        ipsam dolorum quo natus dolorem, molestiae tenetur
+                        pariatur ea! Excepturi dignissimos voluptatibus
+                        obcaecati sint nisi ab!
+                      </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                        <a href="" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselPortfolio"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselPortfolio"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </section>
 
-      <section class="pt-5 pb-5" id="Contato">
-        <div class="container mb-5">
-          <h2 class="pt-3 pb-3">Contato</h2>
-          <div class="row">
-            <div class="col-md-5">
-              <div class="card p-5 shadow border-0" data-anime="up">
-                <div class="endereco">
-                  <h4><i class="bi bi-geo-alt"> Localização:</i></h4>
-                  <p>Itajaí, SC</p>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../static/img/" class="card-img-top img-fluid w-100" alt="Print" />
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto 4</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Repudiandae, illum corporis aut quae earum
+                        tempore dolores voluptatum sit quia labore,
+                        praesentium maiores deleniti non ipsum distinctio eos
+                        quo harum dolorum.
+                      </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                        <a href="" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="email">
-                  <h4><i class="bi bi-envelope"> Email:</i></h4>
-                  <p>gaabrielgasperi@gmail.com</p>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../static/img/" class="card-img-top img-fluid w-100" alt="Print" />
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto 5</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Rem facere quam quasi minima sit asperiores hic
+                        officiis placeat at quae, facilis soluta quaerat nam
+                        est et quos ratione sequi assumenda?
+                      </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                        <a href="" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
-                <iframe
-                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113791.53094643138!2d-48.827567128622!3d-26.9673634997524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8cc651b94663b%3A0x506f2d619440307b!2sItaja%C3%AD%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1749333549218!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                  width="400"
-                  height="300"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  class="w-100"
-                ></iframe>
-              </div>
-            </div>
-            <div class="col-md-7 mt-5 mt-md-0">
-              <div class="card p-5 h-100 shadow border-0" data-anime="left">
-                <form class="row g-3" action="/send" method="POST">
-                  <div class="col-md-6">
-                    <label for="nome" class="form-label">Nome:</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="nome"
-                      name="nome"
-                      placeholder="Digite seu nome"
-                      required
-                    />
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../static/img/" class="card-img-top img-fluid w-100" alt="Print" />
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto 6</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Reiciendis illo optio pariatur quos! Quasi,
+                        eaque quam nostrum omnis velit in illo quibusdam
+                        error, aliquid reprehenderit natus ea, quidem
+                        perferendis assumenda.
+                      </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                        <a href="" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                    <label for="email" class="form-label">Email:</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="email"
-                      name="email"
-                      placeholder="Digite seu email"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-12">
-                    <label for="mensagem" class="form-label">Mensagem:</label>
-                    <textarea
-                      type="text"
-                      class="form-control"
-                      id="mensagem"
-                      name="mensagem"
-                      rows="10"
-                      placeholder="Digite sua mensagem"
-                      required
-                    ></textarea>
-                  </div>
-
-                  <div class="col-12 d-flex justify-content-center mt-4">
-                    <button
-                      id="btn-enviar"
-                      type="submit"
-                      class="btn btn-primary"
-                    >
-                      Enviar mensagem
-                    </button>
-                  </div>
-                </form>
+                </div>
               </div>
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../static/script.js"></script>
-  </body>
+    <section class="pt-5 pb-5" id="contato">
+      <div class="container mb-5">
+        <h2 class="pt-3 pb-3">Contato</h2>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="card p-5 shadow border-0" data-anime="up">
+              <div class="endereco">
+                <h4><i class="bi bi-geo-alt"> Localização:</i></h4>
+                <p>Itajaí, SC</p>
+              </div>
+
+              <div class="email">
+                <h4><i class="bi bi-envelope"> Email:</i></h4>
+                <p>gasperi.dev@gmail.com</p>
+              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113791.53094643138!2d-48.827567128622!3d-26.9673634997524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8cc651b94663b%3A0x506f2d619440307b!2sItaja%C3%AD%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1749333549218!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" width="400" height="300" style="border: 0"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+            </div>
+          </div>
+          <div class="col-md-7 mt-5 mt-md-0">
+            <div class="card p-5 h-100 shadow border-0" data-anime="left">
+              <form id="formulario" class="row g-3" action="/send" method="POST">
+                <div class="col-md-6">
+                  <label for="nome" class="form-label">Nome:</label>
+                  <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome"
+                    required />
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email"
+                    required />
+                </div>
+
+                <div class="col-12">
+                  <label for="mensagem" class="form-label">Mensagem:</label>
+                  <textarea type="text" class="form-control" id="mensagem" name="mensagem" rows="10"
+                    placeholder="Digite sua mensagem" required></textarea>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center mt-4">
+                  <button id="btn-enviar" type="submit" class="btn btn-primary">
+                    Enviar mensagem
+                  </button>
+                  <button id="btn-enviar-loader" type="button" class="btn btn-primary" disabled>
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true">
+                    </span>
+                    Enviando...
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <div id="alerta" class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="bi bi-check-circle-fill"></i> {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="text-center">
+        &copy; Copyright <strong>Gasperi Dev</strong>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/script.js"></script>
+</body>
+
 </html>

@@ -116,7 +116,7 @@ section#inicio span#subtitle {
 }
 
 section#inicio div#arraste {
-    width: 9rem;
+    width: 10rem;
 }
 
 section#inicio div#arraste a {
@@ -291,4 +291,36 @@ body.menu-nav-active {
 [data-anime].animate {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+
+#btn-enviar-loader{
+    display: none;
+}
+
+#alerta {
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  right: 30px;
+}
+
+#footer{
+  padding: 15px;
+  color: #fff;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background-color: #000;
+  transition: .3s;
+}
+
+@media (max-width: 1012px) {
+  #footer{
+    position: static;
+    width: auto;
+    padding: 20px 15px;
+  }
 }
